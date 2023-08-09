@@ -9,7 +9,7 @@ import { Promociones } from './pages/Promociones';
 import { Ayuda } from './pages/Ayuda';
 import { Header } from './components/Header';
 import { Aside } from './components/Aside';
-import {login} from './pages/login';
+import {Login} from './pages/login';
 import { Register } from './pages/Register';
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
